@@ -1,0 +1,86 @@
+html,body {
+  height: 100%;
+}
+/* HOME */
+.home {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  padding: 45px 15px;
+  height: 100vh;
+  text-align: center;
+  color: #e2e2e2;
+  background-color: #2c5ccc;
+}
+.headshot {
+  position: relative;
+  width: 250px;
+  z-index: 3;
+  border: 15px solid currentColor;
+  border-radius: 100%;
+}
+.headshot-backdrop-wrapper{
+  position: relative;
+  display: inline-block;
+}
+.headshot-backdrop-wrapper::before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: calc(100% + 15px);
+  height: calc(100% + 15px);
+  border: 15px solid #000;
+  border-radius: 100%;
+  content: '';
+}
+
+a{
+  color: #e2e2e2;
+}
+a:visited {
+  text-decoration: none;
+  color: #e2e2e2;
+}
+a:hover {
+  text-decoration: underline;
+  color: #e2e2e2;
+}
+a:active {
+  text-decoration: underline;
+  color: #e2e2e2;
+}
+/* RESUME */
+.resume {
+  position: absolute;
+  display: block;
+  /* height: 100%; */
+  width: 50vw;
+  right: 0;
+  background-color: #e2e2e2;
+}
+.resume-padding {
+  padding-top: 2rem;
+}
+/* li {
+  list-style: none;
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+li::before {
+  content: "• ";
+  font-size: 30px;
+  color: blue; /* or whatever color you prefer
+}
+*/
+@media screen and (max-width: 992px) {
+  .home, .resume {
+    position: unset;
+      overflow: hidden;
+      width: 100vw;
+  }
+  .home{
+    height: auto;
+  }
+}
