@@ -63,17 +63,9 @@ a:active {
 .resume-padding {
   padding-top: 2rem;
 }
-/* li {
-  list-style: none;
-  padding-left: 1em;
-  text-indent: -.7em;
+.divider {
+  background-color: #d6d1d1;
 }
-li::before {
-  content: "• ";
-  font-size: 30px;
-  color: blue; /* or whatever color you prefer
-}
-*/
 @media screen and (max-width: 992px) {
   .home, .resume {
     position: unset;
