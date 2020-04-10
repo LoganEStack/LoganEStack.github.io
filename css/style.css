@@ -3,12 +3,12 @@ html,body {
 }
 @font-face {
   font-family: "Handwriting";
-  src: url("./css/fonts/Handwriting.eot"); /* IE9 Compat Modes */
-  src: url("./css/fonts/Handwriting.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./css/fonts/Handwriting.otf") format("opentype"), /* Open Type Font */
-    url("./css/fonts/Handwriting.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./css/fonts/Handwriting.woff") format("woff"), /* Modern Browsers */
-    url("./css/fonts/Handwriting.woff2") format("woff2"); /* Modern Browsers */
+  src: url("./fonts/Handwriting.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Handwriting.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Handwriting.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Handwriting.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Handwriting.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Handwriting.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
