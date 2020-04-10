@@ -2,7 +2,7 @@ html,body {
   height: 100%;
 }
 @font-face {
-  font-family: "Handwriting-Regular";
+  font-family: "Handwriting";
   src: url("./fonts/Handwriting.eot"); /* IE9 Compat Modes */
   src: url("./fonts/Handwriting.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("./fonts/Handwriting.otf") format("opentype"), /* Open Type Font */
@@ -61,6 +61,11 @@ a:hover {
 a:active {
   text-decoration: underline;
   color: #e8e5e5;
+}
+/* INTRO */
+.intro {
+  font-family: 'Handwriting', sans-serif;
+  font-weight:bold;
 }
 /* RESUME */
 .resume {
