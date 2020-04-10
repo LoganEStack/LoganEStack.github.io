@@ -1,6 +1,17 @@
 html,body {
   height: 100%;
 }
+@font-face {
+  font-family: "Handwriting-Regular";
+  src: url("./fonts/Handwriting.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Handwriting.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Handwriting.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Handwriting.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Handwriting.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Handwriting.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 /* HOME */
 .home {
   display: flex;
@@ -58,13 +69,13 @@ a:active {
   /* height: 100%; */
   width: 50vw;
   right: 0;
-  background-color: #e8e5e5;
+  background-color: #e9e5e5;
 }
 .resume-padding {
   padding-top: 2rem;
 }
 .divider {
-  background-color: #d6d1d1;
+  background-color: #e2dcdc;
 }
 @media screen and (max-width: 992px) {
   .home, .resume {
