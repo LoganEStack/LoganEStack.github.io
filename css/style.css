@@ -80,7 +80,7 @@ a:active {
   padding-top: 2rem;
 }
 .divider {
-  background-color: #e2dcdc;
+  background-color: #edebeb;
 }
 @media screen and (max-width: 992px) {
   .home, .resume {
