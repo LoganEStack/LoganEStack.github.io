@@ -1,5 +1,6 @@
 html,body {
   height: 100%;
+  color:#000;
 }
 @font-face {
   font-family: "Handwriting";
@@ -46,19 +47,21 @@ html,body {
   border-radius: 100%;
   content: '';
 }
-
-a{
+ a {
+  color: #000; 
+ }
+.myButton {
   color: #e8e5e5;
 }
-a:visited {
+.myButton:visited {
   text-decoration: none;
   color: #e8e5e5;
 }
-a:hover {
+.myButton:hover {
   text-decoration: underline;
   color: #e8e5e5;
 }
-a:active {
+.myButton:active {
   text-decoration: underline;
   color: #e8e5e5;
 }
@@ -74,13 +77,13 @@ a:active {
   /* height: 100%; */
   width: 50vw;
   right: 0;
-  background-color: #e9e5e5;
+  background-color: #fafafa;
 }
 .resume-padding {
   padding-top: 2rem;
 }
 .divider {
-  background-color: #edebeb;
+  background-color: #ffffff;
 }
 @media screen and (max-width: 992px) {
   .home, .resume {
