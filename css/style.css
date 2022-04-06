@@ -69,6 +69,7 @@ html,body {
 .intro {
   font-family: 'Handwriting', sans-serif;
   font-weight:bold;
+  height: 100vh;
 }
 /* RESUME */
 .resume {
@@ -79,12 +80,13 @@ html,body {
   right: 0;
   background-color: #fafafa;
 }
-.resume-padding {
-  padding-top: 2rem;
+.card-title {
+  padding-bottom: 1rem;
 }
-.divider {
-  background-color: #ffffff;
+.card-body {
+  padding: 2rem 2rem 0 2rem;
 }
+
 @media screen and (max-width: 992px) {
   .home, .resume {
     position: unset;
