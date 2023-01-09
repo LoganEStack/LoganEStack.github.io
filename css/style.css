@@ -13,10 +13,6 @@ html,body {
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: Bradley;
-  src: url("./fonts/bradhitc.ttf");
-}
 .headshot {
   position: relative;
   width: 250px;
@@ -89,8 +85,7 @@ a {
 }
 /* INTRO */
 .intro {
-  font-family: Bradley, sans-serif;
-  font-weight:bold;
+  font-family: "Trebuchet MS", sans-serif;
   margin: 0px;
   height: 100vh;
   padding: 0% 10% 0% 10%;
